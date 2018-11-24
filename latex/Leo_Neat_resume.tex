@@ -1,0 +1,135 @@
+\documentclass[mm,line]{res}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage[bottom=-0.5in]{geometry}
+\usepackage{enumitem}
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=-.1in
+\parsep=0in
+\topmargin=-.5in
+\topskip=0in
+ \newcommand\tab[1][1cm]{\hspace*{#1}}
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+    
+\begin{document}
+
+\name{\LARGE Leo S. Neat} \hfill 
+
+\begin{resume}
+\section{\sc Contact Information}
+
+\vspace{.05in}
+  262 Calvin Place \hfill         {Phone:}  (818) 331-6178 \\
+  Santa Cruz, CA, 95060\hfill {E-mail:}  lneat@ucsc.edu\\
+ 
+
+\section{\sc Education}
+{\bf Univeristy of California Santa Cruz}, Santa Cruz, CA. United States \hfill Fall 2015 - Spring 2019\\
+%\vspace*{-.1in}
+Computer Science - Bachelors of Science \hfill(GPA 3.92)\\
+UCSC Deans List \hfill Fall 2015 - Spring 2018 
+
+\section{\sc Technical Skills}
+{\bf Programming Languages}: Python, Java, C, C++, Android Java, Android XML, Bash \vspace{2mm} \\ 
+{\bf Tools}: Git, OpenCV, LaTex, Cmake, Android Studio, TensorFlow Object Detection API(familiar), TensorFlow Lite(familiar) \vspace{2mm}   \\
+{\bf Relevant Coursework}: Computer Vision, Advanced Programming, Machine Learning, Algorithm Analysis, Data Structures, Comparative Programming Languages, Computer Systems \& Assembly Language, Abstract Data Types, Web Development, Discrete Math, Linear Algebra,  Multivariable Calculus, Probability and Statistics, Technical Writing \\
+%%%%%%%%%%%%%%%%%%%
+\section{\sc Professional Experience}
+%%%%%%
+{\bf UC Santa Cruz Computer Vision Lab}, Santa Cruz, CA.  \hfill{December 2016 -- Present}\\
+\tab[4mm]{\em Software Research Assistant}\hfill 
+\begin{itemize} %Job Description%
+	\item Developed an Android application that is used to test and compare the inference speed of TensorFlow Lite models on mobile devices
+	\item  Studied the costs and benefits of on-board vs. server side inference for mobile Convolutional Neural Networks
+	\item 	Responsible for the development of an Android application to be used by the visually impaired to identify text in their surroundings. Application streams image data from the phone's camera to a Linux server which returns the location and characters of text found in the Android camera's capture range.
+\end{itemize}
+
+%%%%%%
+{\bf Aquifi Inc.}, Palo Alto, CA.  \hfill{Summer 2018}\\
+\tab[4mm]{\em Software Architecture Intern}\hfill 
+\begin{itemize} %Job Description%
+	\item 	Responsible for developing an Android application that allows users to quickly offload data from Aquifi devices to different servers for quality assurance, regression testing, training, etc...
+	\item Wrote, tested, and modified system level camera code that ended up in production
+	\item Developed an algorithm to detect corrupted frames in camera streams and recover the streams if necessary 
+\end{itemize}
+%%%%%%
+%%%%%%
+{\bf Jet Propulsion Laboratory}, Pasadena, CA. \hfill{Summer 2014 -- Summer 2017}\\
+\tab[4mm]{\em Software and Hardware Testbed Development Intern}\hfill {Summer 2017}
+\begin{itemize} %Job Description%
+\item 	Designed and built a camera characterization system for EMCCD camera evaluation using an Android phone to emulate a star.
+\item 	The camera characterization system is currently being used by different teams at NASA for spaceflight detector evaluation 
+\end{itemize}
+%%%%%%
+\tab[4mm]{\em Computer Vision Intern}\hfill {Summer 2016}
+\begin{itemize} %Job Description%
+\item  	Wrote code that implemented OpenCV's tracking methods in order to determine cloud heights from MISR (Multi-angle Imaging SpectroRadiometer) satellite images  
+\item 	Researched different forms of feature detection and optical flow in order to solve a stereo problem apparent in MISR’s images 
+\end{itemize}
+%%%%%%
+\tab[4mm]{\em Software and Hardware Intern for Optical Systems}\hfill {Summer 2015}
+\begin{itemize} %Job Description%
+\item 	Developed code that reduced the execution time of the Wide-Field Infrared Survey Telescope (WFIRST) coronagraph testbed by a factor of 14
+\item 	Wrote an algorithm for detecting cosmic radiation in images from Electron Multiplying Charge Coupled Device (EMCCD) cameras 
+\end{itemize}
+%%%%%%
+\tab[4mm]{\em  Software Intern}\hfill {Summer 2014}
+\begin{itemize} %Job Description%
+\item 	Wrote a Graphical User Interface which was utilized by JPL scientists for data manipulation and visualization of images 
+\item 	Developed master class for multi-core processing system for use in JPL computer lab 
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%
+\section{\sc Publications}
+Michael Bottom, Leo S. Neat, Leon K. Harding, Patrick Morrissey, Seth R. Meeker, Richard T. Demers  "Smartphone scene generator for efficient characterization of visible imaging detectors", Proc. SPIE 10709, High Energy, Optical, and Infrared Detectors for Astronomy VIII, 107092R (6 July 2018); doi: 10.1117/12.2312335; https://doi.org/10.1117/12.2312335
+
+ Harding, et al.  ``Technology Advancement of the CCD201-20 EMCCD for the WFIRST-AFTA Coronagraph Instrument: sensor characterization and radiation damage.'' Journal of Astronomical Telescopes, Instruments,  and Systems 
+	​ 2.1 (2016): 011007-011007. 
+%%%%%%%%%%%%%%%%
+\section{\sc Projects}
+{\bf Fish Tank Temperature Regulator } \hfill {Summer 2018}
+\begin{itemize}
+	\item Developed system with an Arduino, digital thermometers, fans, and a water heater to maintain a constant temperature for a 10 gallon fish tank
+	\item System is currently being used and fish are alive and well
+\end{itemize}
+{\bf UCSC Hackathon}\hfill {Winter 2016}
+\begin{itemize}
+\item Wrote a Monte Carlo simulation to help predict the demand for each of the Computer Science Classes offered at UCSC
+\item The program was created to help reduce the number of people unable to get into Computer Science classes 
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%
+\section{\sc GitHub}
+http://github.com/Leo-Neat
+
+
+
+%%%%%%%%%%%%%%%
+\section{\sc References }
+Available upon request.
+
+\end{resume}
+\end{document}
+
+
+
+
