@@ -29,14 +29,14 @@
 
 
 \namesection{Leo}{Neat}{ % Your name
-\href{mailto:lneat@ucsc.edu}{lneat@ucsc.edu} | 818.331.6178 % Your contact information
+\href{mailto:lneat@ucsc.edu}{lneat@ucsc.edu} | 818.331.6178 | Santa Cruz, CA % Your contact information
 }
 
 %----------------------------------------------------------------------------------------
 %	LEFT COLUMN
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+\begin{minipage}[t]{0.30\textwidth} % The left column takes up 33% of the text width of the page
 
 %------------------------------------------------
 % Education
@@ -48,32 +48,21 @@
 
 \descript{BS in Computer Science}
 \location{Expected May 2019 | Santa Cruz, CA}
-Conc. in Software Engineering \\
-Jack Baskin School of Engineering \\
 Dean's List (All Semesters) \\
 \location{ Cum. GPA: 3.92 / 4.0}
 
 \sectionspace % Some whitespace after the section
 
 %------------------------------------------------
-
-\subsection{La Canada High School}
-
-\location{Grad. May 2015 | Pasadena, CA}
-
-\sectionspace % Some whitespace after the section
-
-%------------------------------------------------
 % Links
 %------------------------------------------------
-\iffalse
 \section{Links} 
 
 Github:// \href{https://github.com/Leo-Neat}{\bf Leo-Neat} \\
 LinkedIn:// \href{https://www.linkedin.com/in/leo-neat-82b34b130/}{\bf leo-neat} \\
 
 \sectionspace % Some whitespace after the section
-\fi
+\
 %------------------------------------------------
 % Coursework
 %------------------------------------------------
@@ -87,14 +76,17 @@ Advanced Algorithm Analysis \\\
 %------------------------------------------------
 \subsection{Undergraduate}
 
+
 Machine Learning \\
 Advanced Programming \\
 Comparative Programming Languages \\
 Probability and Statistics \\
+Computer Architecture \\ 
 Computer Systems \\
 Assembly Language \\
 Discrete Math \\
 Data Structures \\
+Communication in C.S. \\
 Linear Algebra \\
 Vector Calculus \\
 
@@ -102,19 +94,18 @@ Vector Calculus \\
 \sectionspace % Some whitespace after the section
 
 %------------------------------------------------
-% Skills
+% Programming Languages
 %------------------------------------------------
 
-\section{Skills}
+\section{Languages}
 
-\subsection{Programming}
 
-\location{Over 5000 lines:}
-Java \textbullet{} Python \textbullet{} Android \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
+\subsection{Expert}
+Java \textbullet{} Python \textbullet{} Android \\ 
+\subsection{Proficient}
 C \textbullet{} C++ \\
-\location{Familiar:}
-TensorFlow's Object Detection API \textbullet{} Keras \textbullet{} OpenCV \textbullet{} SQLite \textbullet{} Shell  \textbullet{} Arduino
+\subsection{Familiar}
+ Shell  \textbullet{} SQLite \textbullet{} Scheme \textbullet{} Matlab \textbullet{} XML \textbullet{} Java Script 
 
 \sectionspace % Some whitespace after the section
 
@@ -135,15 +126,25 @@ TensorFlow's Object Detection API \textbullet{} Keras \textbullet{} OpenCV \text
 
 \section{Experience}
 
+\runsubsection{UC Santa Cruz Computer Vision Lab}
+\descript{| Undergrad Research}
+
+\location{December 2016 – Present | Santa Cruz, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+	\item Developed a Convolutional Neural Network testing pipeline by implementing an android client to stream  live camera data to a Linix server for processing. This resulted in quick and effective CNN evaluations for the lab. 
+	\item Developed an Android application to help the visually impaired recognize text in there surroundings which resulted in a research study on blind human computer interaction and the following publication: "Scene Text Access: A Comparison of Mobile OCR Modalities for Blind Users" 23rd International Conference on Intelligent User Interfaces. ACM, 2019.
+	\item Developed a system to test the inference speed of TensorFlow Lite models on mobile devices in order to determine costs and benefits of on-board vs. server side inference for mobile CNNs.
+\end{tightitemize}
+\sectionspace % Some whitespace after the section
+
 \runsubsection{Aquifi}
 \descript{| Software Engineering Intern}
 
 \location{June 2018 – Sep 2018 | Palo Alto, CA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
-	\item 	Developed a software system that allows users to quickly offload data from Aquifi devices to different servers for quality assurance, regression testing, training, etc...
-	\item Wrote, tested, and modified system level camera code that ended up in production
-	\item Developed an algorithm to detect corrupted frames in camera streams and recover the streams if necessary 
+	\item Developed an Android application that allowed for users to quickly offload data from Aquifi devices to Aquifi servers for quality assurance, regression testing, and training.
+	\item Created an algorithm to detect corrupted frames in Aquifi camera stream, which resulted in the assurance that Aquifi devices were initialized correctly.
 \end{tightitemize}
 
 \sectionspace % Some whitespace after the section
@@ -152,91 +153,51 @@ TensorFlow's Object Detection API \textbullet{} Keras \textbullet{} OpenCV \text
 
 \runsubsection{Jet Propulson Laboratory }
 \descript{| Software Engineering Intern}
-
-\location{Software Architect Intern for WFIRST Mission | Summer 2017}
+\location{June 2014 – Sep 2017 | Palo Alto, CA}
 \begin{tightitemize}
-	\item 	Designed and built a software and hardware system that utilizes an Android phone to emulate a star for EMCCD camera testing
-	\item 	The camera characterization system is currently being used by different teams at NASA for spaceflight detector evaluation 
-	\item Saved NASA thousands of dollars in development cost and months of testing time 
-\end{tightitemize}
-\location{Software Engineeer for Earth Facing Telescopes | Summer 2016}
-\begin{tightitemize}
-	\item  	Wrote code that implemented OpenCV's tracking methods in order to determine cloud heights for weather prediction 
-	\item 	Researched different forms of feature detection and optical flow in order to solve a stereo problem apparent in MISR’s images 
-\end{tightitemize}
-\location{Software Engineering Intern for WFIRST Mission | Summer 2015}
-\begin{tightitemize}
-	\item 	Multi-threaded a telescope testbed initialization which reduced its startup speed by a factor of 14
-	\item 	Developed an algorithm for detecting radiation corrupted segments in images taken with EMCCD cameras 
-\end{tightitemize}
-\location{Software and Ground Truthing Intern | Summer 2014}
-\begin{tightitemize}
-	\item 	Created a Graphical User Interface which was utilized by JPL scientists for data manipulation and visualization of images 
-	\item 	Developed master class for multi-core processing system for use in JPL computer lab 
-\end{tightitemize}
-
-\sectionspace % Some whitespace after the section
-%------------------------------------------------
-% Research
-%------------------------------------------------
-
-\section{Research}
-
-\runsubsection{UC Santa Cruz Computer Vision Lab}
-\descript{| Undergrad Research}
-
-\location{December 2016 – Present | Santa Cruz, CA}
-\begin{tightitemize}
-	\item Developed a system that streams images from an Android device's  camera to a server where it is processed by a CNN which returns the location and text in the image
-	\item Created a human computer interaction interface that relays the information received by the Android phone from the server to a blind user
-	\item Developing a system that can be used to test and compare the inference speed of TensorFlow Lite models on mobile devices and studying the costs and benefits of on-board vs. server side inference for mobile CNNs.
+	\item 	Designed, developed and built an Optomechanical System that utilizes an Android phone to emulate a star for space camera testing. This resulted in saving the WFIRST detector team months of camera testing, thousand of dollars, and and a publication: "Smartphone scene generator for efficient characterization of visible imaging detectors", Proc. SPIE 10709, High Energy, Optical, and Infrared Detectors for Astronomy VIII.
+	
+	\item Parallelized the initialization process of a telescope testbed which resulted in the reduction of the initialization time being reduced by a factor of seven.   
+	
 \end{tightitemize}
 \sectionspace % Some whitespace after the section
 
-%----------------------------------------------------------------------------------------
 
-\end{minipage} % The end of the right column
-
-%----------------------------------------------------------------------------------------
-%	SECOND PAGE (EXAMPLE)
-%----------------------------------------------------------------------------------------
-
-\newpage % Start a new page
-
-\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+%------------------------------------------------
+% Projects
+%------------------------------------------------
 \section{Projects}
-\subsection{Crowd Size Detector}
-	Developed a platform using Tensor-Flow's object detection API to monitor the number of people in a variety of public locations.
+
+%________________ ASSISTIVE TEXT DETECTOR _______________________
+\runsubsection{Assistive Text Detector}
+\descript{| Personal Project}
+\location{Sept 2018 – Present}
+\begin{tightitemize}
+	\item Created an Android application that assists the visually impaired in the navigation of the world by preforming live on-board text detector and optical character recognition. This application is in internal testing phase and will be available on the google play store in the next couple of weeks.  
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the secti
+%_________________ CROWD SIZE DETECTOR___________________________
+\runsubsection{Crowd Size Detector}
+\descript{| Personal Project}
+\location{Dec 2017 – Present}
+\begin{tightitemize}
+	\item Developing a  platform using TensorFlow's Object Detection API to monitor the number of people in a variety of public locations.   
+\end{tightitemize}
+
 \sectionspace
 
-\subsection{UCSC Hackathon}
-	Wrote a Monte Carlo simulation to help predict the demand for each of the Computer Science Classes offered at UCSC. The program's goal was to help reduce the number of people unable to get into Computer Science classes.
+%________________CRUZ HACKS_______________________________________
+\runsubsection{Cruz Hacks}
+\descript{| Hackathon}
+\location{Jan 2017 }
+\begin{tightitemize}
+	\item Developed a Monte Carlo simulation to help predict the demand fo t each of the computer science classes at UC Santa Cruz. 
+\end{tightitemize}
 
-\end{minipage} % The end of the left column
-\hfill
-\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
 
-
-%------------------------------------------------
-% Awards
-%------------------------------------------------
-
-\section{Publications} 
-
-\begin{enumerate}
-	\item
-	L. Neat, R. Peng, S. Qin, R. Manduchi "Bringing Transparency Design into Practice." 23rd International Conference on Intelligent User Interfaces. ACM, 2019.
-	
-	\item
-	Michael Bottom, Leo S. Neat, Leon K. Harding, Patrick Morrissey, Seth R. Meeker, Richard T. Demers  "Smartphone scene generator for efficient characterization of visible imaging detectors", Proc. SPIE 10709, High Energy, Optical, and Infrared Detectors for Astronomy VIII, 107092R (6 July 2018); doi: 10.1117/12.2312335;
-	
-	\item
-	Harding, et al.  ``Technology Advancement of the CCD201-20 EMCCD for the WFIRST-AFTA Coronagraph Instrument: sensor characterization and radiation damage.'' Journal of Astronomical Telescopes, Instruments,  and Systems 
-	​ 2.1 (2016): 011007-011007. 
-\end{enumerate}
-
-\end{minipage} % The end of the right column
 
 %----------------------------------------------------------------------------------------
 
+\end{minipage} % The end of the right column
 \end{document}
